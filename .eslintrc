@@ -1,0 +1,6 @@
+{
+  "extends": "umi",
+  "rules": {
+    "no-throw-literal": 0
+  }
+}

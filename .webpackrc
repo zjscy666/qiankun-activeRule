@@ -1,0 +1,13 @@
+{
+    "env": {
+        "development": {
+            "publicPath": "/"
+        },
+        "production": {
+            "publicPath": "/dapnew/"
+        }
+    },
+    "extraBabelPlugins": [
+        ["import", {"libraryName": "antd", "libraryDirectory": "es", "style": true }]
+    ]
+}
